@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className='text-gray-600 mt-12 fixed bottom-0 left-0 bg-white w-full'>
       <div className='container mx-auto py-2 lg:py-2 flex items-center flex-col sm:flex-row md:py-8'>
         <Link href="/" className='flex items-center justify-center md:justify-start text-gray-900 '>
-          <Image className="h-auto w-auto" alt = 'logo' src={"/Logo.png"} height={35} width={40}/>
+          <Image className="h-auto w-auto" alt = 'logo' src={"https://res.cloudinary.com/dkv7cimyy/image/upload/v1684947640/LOGO_mvvenp.png"} height={35} width={40}/>
           <span className='ml-3 text-md'>Next Js Blog</span>
         </Link>
         <p className="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
