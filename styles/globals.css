@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;700&family=Rubik+Pixels&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .disabled {
+    @apply opacity-30 cursor-not-allowed;
+  }
+  .custom-class h1 {
+    @apply text-3xl font-bold py-2
+  }
+
+  .custom-class h2 {
+    @apply text-xl font-bold py-2
+  }
+
+  .custom-class pre {
+    @apply text-primary-dark bg-gray-100 my-6 p-2 w-full;
+    
+  }
+  .custom-class code{
+    @apply overflow-x-auto overflow-y-scroll;
+  }
+}
