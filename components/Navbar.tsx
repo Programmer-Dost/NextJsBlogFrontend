@@ -14,7 +14,7 @@ const Navbar = () => {
       <div className="flex items-center cursor-pointer">
         <Link href="/">
           <div className="flex items-center">
-            <Image src="https://res.cloudinary.com/dkv7cimyy/image/upload/v1684947640/LOGO_mvvenp.png" alt="Logo" height={35} width={40} />
+            <Image src="/Logo.png" alt="Logo" height={35} width={40} />
             <span className="font-bold ml-2 text-primary">Next.js Blog</span>
           </div>
         </Link>
