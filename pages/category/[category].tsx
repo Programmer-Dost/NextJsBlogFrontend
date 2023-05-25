@@ -56,7 +56,7 @@ const Category = ({ categories, articles, slug }: IPropType) => {
         <meta name="description" content="Category" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>{formattedCategory}</title>
-        <link rel="icon" href="/Logo.png" />
+        <link rel="icon" href="/LOGO.png" />
       </Head>
       <div>
         <Tabs categories={categories?.items} handleOnSearch={debounce(handleSearch,500)} />
